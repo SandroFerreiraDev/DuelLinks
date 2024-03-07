@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DuelLinks</string>
+    <string name="login_text">Entrar</string>
+    <string name="text_logo">Duel Links Logo</string>
 </resources>
