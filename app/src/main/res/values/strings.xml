@@ -2,4 +2,7 @@
     <string name="app_name">DuelLinks</string>
     <string name="login_text">Entrar</string>
     <string name="text_logo">Duel Links Logo</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="text_deck_management">Deck Management</string>
+    <string name="text_quick_match">Quick Match</string>
 </resources>

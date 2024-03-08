@@ -1,11 +1,14 @@
 package com.example.duellinks
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AnimationUtils
+import android.widget.Button
 import android.widget.RelativeLayout
 import androidx.core.view.WindowCompat
+import com.example.duellinks.MenuActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +26,16 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
+        val goToMenu = findViewById<Button>(R.id.btnLogin)
 
+        goToMenu.setOnClickListener {
+            goToMenu()
+        }
     }
+
+    private fun goToMenu() {
+        val intent = Intent(this, MenuActivity::class.java)
+        startActivity(intent)
+    }
+
 }
